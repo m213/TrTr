@@ -1,0 +1,47 @@
+<ProviderLoginRequest>
+	<Login/>
+	<Password/>
+</ProviderLoginRequest>
+
+<ProviderCoordsRequest>
+	<SessionID/>
+	<Altitude/>
+	<Latitude/>
+</ProviderCoordsRequest>
+
+<ProviderLogoutRequest>
+	<SessionID/>
+</ProviderLogoutRequest>
+
+<ProviderLoginResponse>
+	<Error/>
+	<SessionID/>
+</ProviderLoginResponse>
+
+<ProviderCoordsResponse>
+	<Error/>
+</ProviderCoordsResponse>
+
+<ProviderLogoutResponse>
+	<Error/>
+</ProviderLogoutResponse>
+
+
+<!-------------------------------------------->
+
+
+<ConsumerInfoRequest>
+	<StationID/>
+	<RouteID/>
+</ConsumerInfoRequest>
+
+<ConsumerInfoResponse>
+	<Route>
+		<ID/>
+		<Time/>
+	</Route>
+	<Route>
+		<ID/>
+		<Time/>
+	</Route>
+</ConsumerInfoResponse>
