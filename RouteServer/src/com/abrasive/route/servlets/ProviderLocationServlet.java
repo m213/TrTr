@@ -22,8 +22,9 @@ public class ProviderLocationServlet extends HttpServlet {
 		String sessionID = req.getParameter("SessionID");
 		String altitude = req.getParameter("Altitude");
 		String latitude = req.getParameter("Latitude");
+		String speed = req.getParameter("Speed");
 				
 		resp.getWriter().write(
-				ProviderRequestController.updateLocation(sessionID, altitude, latitude));
+				ProviderRequestController.updateLocation(sessionID, altitude, latitude, speed));
 	}
 }
